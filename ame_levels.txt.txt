@@ -1,0 +1,22 @@
+Level 0:
+#2 Vanilla Flan
+#5 Blueberries
+#Start @ 0, 500
+#End @ 700, 150
+# Borders, 1 Floor: @ 350, 100, Length = 100, no rotation
+Variables = {pEnergy:-1 gravity:-0.01 push:0 image:Level0.png}
+Flan = {flav:vla cent:400,341.875}
+Fruit = {flav:blb}{flav:blb}{flav:blb}{flav:blb}{flav:blb}
+Floor = {cent:400,600 size:800,40 rotation:0 mat:plc}{cent:90,300 size:40,600 rotation:0 mat:plc}{cent:715,300 size:40,600 rotation:0 mat:plc}{cent:400,0 size:615,80 rotation:0 mat:plc}{cent:155,440 size:110,30 rotation:0 mat:plc}{cent:410,395 size:105,30 rotation:-14 mat:plc}{cent:653,235 size:107,28 rotation:0 mat:plc}{cent:260,180 size:102,35 rotation:-40 mat:plc}{cent:425,150 size:270,30 rotation:0 mat:plc}{cent:600,50 size:200,15 rotation:0 mat:plc alt:plate}
+Plate = [73, 125, 555, 15, 0]
+
+Level 1:
+Flan = vla,vla,vla
+Fruit = none
+#center_x, center_y, width, height, rotation
+Floor = [400, 600, 800, 40, 0], [90, 300, 40, 600, 0], [715, 300, 40, 600, 0], [400, 0, 615, 80, 0], [155, 440, 110, 30, 0], [410, 395, 105, 30, -14], [653, 235, 107, 28, 0], [260, 180, 102, 35, -40], [425, 150, 270, 30, 0]
+Plate = [600, 50, 200, 15, 0]
+
+END
+{flav:vla cent:600,141.875}
+{flav:vla cent:600,74.375}{flav:vla cent:532.5,74.375}{flav:vla cent:667.5,74.375}{flav:vla cent:566.25,108.125}{flav:vla cent:633.75,108.125}
